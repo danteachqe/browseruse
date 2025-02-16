@@ -32,7 +32,7 @@ context = BrowserContext(browser=browser, config=context_config)
 llm = ChatOpenAI(model="gpt-4o")
 
 # Define the task for the AI agent
-task = "Find the cheapest nonstop flight from Dubai to COK (Cochin) in economy class for tomorrow for one passenger."
+task = "Create a list of functinonal tests cases that can be done on the website blazedemo.com"
 
 async def main():
     agent = Agent(
