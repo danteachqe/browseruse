@@ -32,7 +32,7 @@ context = BrowserContext(browser=browser, config=context_config)
 llm = ChatOpenAI(model="gpt-4o")
 
 # Define the task for the AI agent
-task = "Create a list of functinonal tests cases that can be done on the website blazedemo.com"
+task = "Create a list of functinonal E2E tests cases that can be done on the website blazedemo.com, and all pages that are part of the website, foucus only on the functinoal part and noting else"
 
 async def main():
     agent = Agent(
